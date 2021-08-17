@@ -1,7 +1,7 @@
 #Vectorized code for monte carlo dart simulation
 
 
-throws = 100 #1000000
+throws = 100
 landed = 0 #landed in circle
 
 #throws=100
@@ -12,4 +12,14 @@ dardos_indexados <- which(soma_quadrados <= 1)
 no_alvo <- length(dardos_indexados)
 
 print(4 * (no_alvo/throws))
+
+plot(x, y)
+
+for (i in seq(1, throws)) {
+    plot(x[1:i], y[1:i], xlim=c(-1,1), ylim=c(-1,1))
+    points(x[i], y[i], col="red")
+    Sys.sleep(0.5)
+}
+
+
 
