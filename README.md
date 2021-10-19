@@ -1,2 +1,2 @@
-# eda
- Algorithms &amp; Data Structures
+# algorithms
+ Algorithms and Data Structures
