@@ -3,3 +3,6 @@
 *.jpg
 *.pdf
 *.rmd
+
+# /algorithms/computer-science/data-structures/binary-tree
+ArvoreBinaria.java
